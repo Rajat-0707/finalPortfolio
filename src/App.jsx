@@ -114,7 +114,7 @@ function App() {
                <div className="project-card">
                  <h4>Task Manager</h4>
                  <p>A comprehensive task management application built with React, Redux, and CSS. Features local storage integration for persistent task management and intuitive user interface.</p>
-                 <a href="#" target="_blank" rel="noopener noreferrer">View Project →</a>
+                 <a href="https://takss-xhwf.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
                </div>
              </div>
              <div className="project-item">
