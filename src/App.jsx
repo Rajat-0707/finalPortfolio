@@ -121,7 +121,7 @@ function App() {
                <div className="project-card">
                  <h4>Akrit - Artist Platform</h4>
                  <p>A platform connecting artists with clients for performance bookings. Provides artists with increased visibility and reach while offering clients an easy way to discover and book talented performers.</p>
-                 <a href="#" target="_blank" rel="noopener noreferrer">View Project →</a>
+                 <a href="https://akrit.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
                </div>
              </div>
            </div>
