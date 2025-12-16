@@ -124,6 +124,13 @@ function App() {
                  <a href="https://akrit.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
                </div>
              </div>
+             <div className="project-item">
+               <div className="project-card">
+                 <h4>PROJECT MANAGEMENT APP</h4>
+                 <p>A full stack website to manage projects with drag and drop feature using react pangea dnd</p>
+                 <a href="https://project-management-sigma-rosy.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
+               </div>
+             </div>
            </div>
          </div>
        </div>
