@@ -9,6 +9,9 @@
   margin: 0 auto;
 }
 
+.certificate-actions{
+  gap:10px;}
+
 .achievements-title {
   color: var(--text-accent);
   font-size: clamp(2rem, 4vw, 3rem);
