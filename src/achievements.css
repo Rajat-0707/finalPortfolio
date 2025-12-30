@@ -11,7 +11,8 @@
 
 .certificate-actions{
   display:flex;
-  
+  jusify-content:center;
+  align-items:center;
   gap:10px;}
 
 .achievements-title {
