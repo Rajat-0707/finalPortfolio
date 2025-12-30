@@ -122,7 +122,7 @@ function App() {
                   <div className="project-card">
                     <h4>AI Website Generator</h4>
                     <p>An AI-powered website generator that creates complete websites from text prompts using React and AI APIs. Uses openrouter api and generates html/css/js output.</p>
-                    <a href="https://ai-website-generator.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
+                    <a href="https://ai-website-generator-liard.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
                     <a href="https://github.com/Rajat-0707/aiWebsiteGenerator" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
                   </div>
                 </div>
