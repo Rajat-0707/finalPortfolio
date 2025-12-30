@@ -87,28 +87,10 @@ function App() {
           <h1 className='myski'>Featured Projects</h1>
 
        <div className="projects-container">
-         <div className="project-category">
-           <h3>React Applications</h3>
-           <div className="projects-grid">
-             <div className="project-item">
-               <div className="project-card">
-                 <h4>Odd Even Game</h4>
-                 <p>A simple game built with React to guess if the sum of numbers guessed by both the player and computer is odd or even. Features interactive gameplay and real-time score tracking.</p>
-                 <a href="https://project1-chi-eight.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
-               </div>
-             </div>
-             <div className="project-item">
-               <div className="project-card">
-                 <h4>Portfolio Website</h4>
-                 <p>A modern, responsive portfolio website showcasing projects, skills, and experience. Built with React and styled with glassmorphism design principles.</p>
-                 <a href="https://portfolio-iota-swart-42.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
-               </div>
-             </div>
-           </div>
-         </div>
+         
 
          <div className="project-category">
-           <h3 className="fullstack-heading">Full-Stack Applications</h3>
+           <h3 className="fullstack-heading">Full-Stack WebApplications</h3>
            <div className="projects-grid">
              <div className="project-item">
                <div className="project-card">
@@ -127,6 +109,19 @@ function App() {
              <div className="project-item">
                <div className="project-card">
                  <h4>PROJECT MANAGEMENT APP</h4>
+                 <p>A full stack website to manage projects with drag and drop feature using react pangea dnd.Used express for backend and mongodb for database</p>
+                 <a href="https://project-management-sigma-rosy.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
+               </div>
+             </div>
+             <div className="project-item">
+               <div className="project-card">
+                 <h4>Movie Recommendation site</h4>
+                 <p>A full-stack movie recommendation system that combines web development with data processing to suggest movies and TV shows based on user interests and content similarity.</p>
+                 <a href="https://project-management-sigma-rosy.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
+               </div>
+             </div><div className="project-item">
+               <div className="project-card">
+                 <h4>PROJECT MANAGEMENT APP</h4>
                  <p>A full stack website to manage projects with drag and drop feature using react pangea dnd</p>
                  <a href="https://project-management-sigma-rosy.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
                </div>
@@ -134,6 +129,25 @@ function App() {
            </div>
          </div>
        </div>
+        <div className="project-category">
+           <h3>React Applications</h3>
+           <div className="projects-grid">
+             <div className="project-item">
+               <div className="project-card">
+                 <h4>Odd Even Game</h4>
+                 <p>A simple game built with React to guess if the sum of numbers guessed by both the player and computer is odd or even. Features interactive gameplay and real-time score tracking.</p>
+                 <a href="https://evenoddgame.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
+               </div>
+             </div>
+             <div className="project-item">
+               <div className="project-card">
+                 <h4>Portfolio Website</h4>
+                 <p>A modern, responsive portfolio website showcasing projects, skills, and experience. Built with React and styled with glassmorphism design principles.</p>
+                 <a href="https://portfolio-iota-swart-42.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
+               </div>
+             </div>
+           </div>
+         </div>
        </Element>
 
       <Element name="resume" >
