@@ -114,7 +114,7 @@ function App() {
                   <div className="project-card">
                     <h4>Movie Recommendation site</h4>
                     <p>A full-stack movie recommendation system that combines web development with data processing to suggest movies and TV shows based on user interests and content similarity.</p>
-                    <a href="https://project-management-sigma-rosy.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
+                    <a href="https://movie-recommendation-pi-ten.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
                     <a href="https://github.com/Rajat-0707/movieRecommendation" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
                   </div>
                 </div>
