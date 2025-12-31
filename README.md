@@ -17,14 +17,23 @@
 
 finalPortfolio/
 ├── public/                # Static assets (images, icons, PDFs, etc.)
+---
 ├── src/                   # Source code (components, pages, styles)
+---
 │   ├── components/        # Reusable UI components
+---
 │   ├── pages/             # Page-level components
+---
 │   ├── styles/            # CSS files
+---
 │   └── App.jsx            # Root component
+---
 ├── index.html             # Entry HTML file
+---
 ├── package.json           # Project configuration & dependencies
+---
 ├── README.md              # Project documentation
+---
 └── ...
 
 ---
