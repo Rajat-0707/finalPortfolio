@@ -50,6 +50,7 @@ function App() {
                 <Skills name="JavaScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <Skills name="React" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
                 <Skills name="Tailwind CSS" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
+                <Skills name="typeScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
                 <Skills name="Bootstrap" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
               </div>
             </div>
@@ -134,6 +135,14 @@ function App() {
                     <a href="https://github.com/Rajat-0707/tas" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
                   </div>
                 </div>
+                <div className="project-item">
+                  <div className="project-card">
+                    <h4>Digital Foorprint Time Capsule </h4>
+                    <p> A full stack website made using mern stack and typescript, where users can upload their messages and files to be unlocked after a certain time.</p>
+                    <a href="https://digital-footprint-time-capsule.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
+                    <a href="https://github.com/Rajat-0707/digitalFootprintTimeCapsule" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -143,7 +152,7 @@ function App() {
               <div className="project-item">
                 <div className="project-card">
                   <h4>Odd Even Game</h4>
-                  <p>A simple game built with React to guess if the sum of numbers guessed by both the player and computer is odd or even. Features interactive gameplay and real-time score tracking.</p>
+                  <p>A simple game built with React to guess if the sum of numbers guessed by both the player and computer is odd or even. </p>
                   <a href="https://evenoddgame.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
                   <a href="https://github.com/Rajat-0707/evenoddgame" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
                 </div>
@@ -169,7 +178,6 @@ function App() {
 
 
         <Element name="resume" >
-          <Hr />
           <ResumeDownload />
         </Element>
         <Hr />
