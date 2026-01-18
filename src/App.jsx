@@ -161,7 +161,7 @@ function App() {
                 <div className="project-card">
                   <h4>Portfolio Website</h4>
                   <p>A modern, responsive portfolio website showcasing projects, skills, and experience. Built with React and styled with glassmorphism design principles.</p>
-                  <a href="https://portfolio-iota-swart-42.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
+                  <a href="https://final-portfolio-six-gamma.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
                   <a href="https://github.com/Rajat-0707/finalPortfolio" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
                 </div>
               </div>
