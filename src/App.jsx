@@ -1,25 +1,25 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import './App.css'
+import './css/App.css'
 import ResumeDownload from './ResumeDownload'
 import Navbar from './navbar'
 import Home from './home'
 import React from 'react'
-import './navbar.css'
-import './home.css'
+import './css/navbar.css'
+import './css/home.css'
 import Skills from './skills'
 import Hr from './Hr'
-import './hr.css'
-import './skill.css'
+import './css/hr.css'
+import './css/skill.css'
 import Projects from './projects'
 import Mainpage from './mainpage'
-import './main2.css'
+import './css/main2.css'
 import WordDisplay from './worddisplay'
 import Contact from './contact'
-import './contact.css'
+import './css/contact.css'
 import Achievements from './achievements'
-import './achievements.css'
+import './css/achievements.css'
 import { Element } from 'react-scroll'
 
 function App() {
@@ -30,8 +30,7 @@ function App() {
     <>
       <div className="all">
 
-        <Navbar />
-        <Hr />
+      
         <Element name="home" >
           <Mainpage />
           <Hr />
@@ -40,11 +39,13 @@ function App() {
         </Element>
         <Hr />
         <Element name="skills" >
-          <h1 className='myski'>My Skills</h1>
+          <div className="skillset"> <h1 className='myski'>My Skill Set</h1></div>
+         
           <div className="skill">
             <div className="skill-category">
               <h3>Frontend Development</h3>
               <div className="skill-grid">
+                <div className="skill-track">
                 <Skills name="HTML" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
                 <Skills name="CSS" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
                 <Skills name="JavaScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
@@ -52,35 +53,65 @@ function App() {
                 <Skills name="Tailwind CSS" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
                 <Skills name="typeScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
                 <Skills name="Bootstrap" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-              </div>
+                 <Skills name="HTML" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                <Skills name="CSS" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                <Skills name="JavaScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                <Skills name="React" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                <Skills name="Tailwind CSS" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
+                <Skills name="typeScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+                <Skills name="Bootstrap" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+              </div></div>
             </div>
 
             <div className="skill-category">
               <h3>Backend Development</h3>
               <div className="skill-grid">
+                <div className="skill-track">
                 <Skills name="Node.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
                 <Skills name="Express.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
                 <Skills name="MongoDB" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+                <Skills name="MySQL" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
                 <Skills name="PHP" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
-              </div>
+                <Skills name="Node.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                <Skills name="Express.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+                <Skills name="MongoDB" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+                <Skills name="MySQL" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+                <Skills name="PHP" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+              </div></div>
             </div>
 
             <div className="skill-category">
               <h3>Programming Languages</h3>
               <div className="skill-grid">
+                <div className="skill-track">
                 <Skills name="C" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <Skills name="C++" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-              </div>
+                <Skills name="Python" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                <Skills name="Java" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                <Skills name="javaScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                <Skills name="C" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+                <Skills name="C++" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                <Skills name="Python" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                <Skills name="Java" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                <Skills name="javaScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+              </div></div>
             </div>
 
             <div className="skill-category">
               <h3>Tools & Technologies</h3>
               <div className="skill-grid">
+                <div className="skill-track">
                 <Skills name="Git" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
                 <Skills name="GitHub" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 <Skills name="VS Code" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
                 <Skills name="Postman" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" />
-              </div>
+                <Skills name="Rest API" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/restapi/restapi-original.svg" />
+                <Skills name="Git" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                <Skills name="GitHub" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <Skills name="VS Code" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+                <Skills name="Postman" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" />
+                <Skills name="Rest API" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/restapi/restapi-original.svg" />
+              </div></div>
             </div>
           </div>
         </Element>

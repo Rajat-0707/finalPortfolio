@@ -1,5 +1,5 @@
 import React from 'react'
-import './navbar.css' 
+import './css/navbar.css' 
 import {Link} from 'react-scroll' // Importing link from react-scroll for smooth scrolling
 import Achievements from './achievements'
 
@@ -9,9 +9,9 @@ const Navbar = () => {
 
     {/* <div className="main"> */}
     <div className="container67"> 
-      <div className="blank">
+      {/* <div className="blank">
       
-      </div>
+      </div> */}
     <div className="nav">
 
       <div className="home"><Link    className='linn'    to='home'>Home</Link></div>
@@ -21,7 +21,8 @@ const Navbar = () => {
       <div className="resume"><Link    className='linn'    to='resume'>Resume</Link></div>
       <div className="contact"><Link    className='linn'    to='contact'>Contact me</Link></div>
 
-    </div></div>
+    </div>
+    </div>
     
     
   {/* </div> */}

@@ -1,5 +1,5 @@
 import React from 'react'
-import './achievements.css'
+import './css/achievements.css'
 
 const Achievements = () => {
   const handlePreviewCertificate = () => {

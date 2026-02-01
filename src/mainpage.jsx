@@ -1,11 +1,16 @@
 import React from 'react'
-import './main2.css'
+import './css/main2.css'
 import WordDisplay from './worddisplay'
+import './css/navbar.css'
+import Navbar from './navbar'
 const Mainpage = () => {
   return (
     <>
+    
     <div className="cc">
-     <video autoPlay loop muted src="bgvideo.mp4"></video>
+     <video autoPlay loop muted src="bgvideo.mp4">
+      </video>
+      <Navbar />
     <div className="container12">
 
     <p className="text1">

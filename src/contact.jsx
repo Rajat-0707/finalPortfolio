@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import emailjs from '@emailjs/browser'
-import './contact.css'
+import './css/contact.css'
 
 const Contact = () => {
   // EmailJS configuration - you'll need to replace these with your actual IDs

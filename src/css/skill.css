@@ -15,6 +15,13 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  min-width: 200px;
+flex: 0 0 auto;
+
+}
+
+.skill-track{
+  margin: 20px;
 }
 
 .skill-box:hover {
@@ -93,10 +100,26 @@
 }
 
 .skill-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
   padding: 0 2rem;
+}
+
+.skill-track {
+  display: flex;
+  gap: 2rem;
+  width: max-content;
+  animation: scrollSkills 35s linear infinite;
+}
+
+@keyframes scrollSkills {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.skill-grid:hover .skill-track {
+  animation-play-state: paused;
 }
 
 /* Responsive design */

@@ -50,12 +50,24 @@
 .myski {
   color: var(--text-accent);
   font-size: clamp(2rem, 4vw, 3rem);
-  text-align: center;
-  margin: 3rem auto 2rem;
-  font-weight: 500;
+  /* text-align: center; */
+  margin-left: 5rem;
+  margin-top: 5rem;
+  font-weight: bold;
   text-shadow: 0 2px 10px rgba(100, 255, 218, 0.3);
   animation: glow 2s ease-in-out infinite alternate;
-  max-width: 300px;
+  /* max-width: 300px; */
+}
+
+.myski::after{
+  content: '';
+  display: block;
+  width: 120px;
+  height: 4px;
+  /* margin: 0.5rem 1rem; */
+  background: var(--accent-gradient);
+  border-radius: 2px;
+  left: 100px;
 }
 
 @keyframes glow {
@@ -67,17 +79,12 @@
   }
 }
 
-/* Improved spacing for all sections */
-.all {
-  padding-top: 80px; /* Account for fixed navbar */
-}
 
-/* Better section spacing */
+
 section {
   margin: 3rem 0;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
   .skill {
     padding: 3rem 1rem 4rem;
@@ -99,3 +106,49 @@ section {
     padding-top: 70px;
   }
 }
+.linn {
+    position: relative;
+    overflow: hidden;
+    color: var(--text-primary);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.8rem 1.5rem;
+
+    border-radius: 999px;
+    border: 1px solid transparent;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+
+    transition: color 0.3s ease, border-color 0.3s ease;
+    z-index: 0;
+}
+
+.linn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%; 
+    height: 100%;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 999px;
+    z-index: -1;
+    transition: width 0.5s ease;
+}
+
+.linn:hover {
+    color: white;
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+.linn:hover::before {
+    width: 100%;
+}
+
+
+/* .skillset{
+
+} */
+

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./hr.css"
+import "./css/hr.css"
 
 const Hr = () => {
   return (
