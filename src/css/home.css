@@ -21,7 +21,7 @@ body {
   padding: 3rem 2rem;
   gap: 3rem;
   box-shadow: var(--shadow);
-  border-radius: 15px;
+  /* border-radius: 15px; */
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
