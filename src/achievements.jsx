@@ -17,7 +17,7 @@ const Achievements = () => {
 
   return (
     <div className="achievements-section">
-      <h2 className="achievements-title">Achievements</h2>
+      <h2 className="myski">Achievements</h2>
       <p className="achievements-subtitle">
         Here are some of my notable achievements:
       </p>
