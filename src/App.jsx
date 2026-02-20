@@ -144,6 +144,17 @@ function App() {
                 </div>
                 <div className="project-item">
                   <div className="project-card">
+                    <h4>Skill Swap</h4>
+                    <p>skill-barter platform using the MERN stack and TypeScript, enabling users to offer and
+                      request skills with secure JWT-based authentication and protected routes.
+                      Real-time one-to-one messaging using Socket.io</p>
+                    <a href="https://skill-swap-orpin-chi.vercel.app/" target="_blank" rel="noopener norefferer">View Project →</a>
+                    <a href="https://github.com/Rajat-0707/skillSwap" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+                  </div>
+
+                </div>
+                <div className="project-item">
+                  <div className="project-card">
                     <h4>Movie Recommendation site</h4>
                     <p>A full-stack movie recommendation system that combines web development with data processing to suggest movies and TV shows based on user interests and content similarity.</p>
                     <a href="https://movie-recommendation-pi-ten.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
@@ -174,17 +185,7 @@ function App() {
                     <a href="https://github.com/Rajat-0707/digitalFootprintTimeCapsule" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
                   </div>
                 </div>
-                <div className="project-item">
-                  <div className="project-card">
-                    <h4>Skill Swap</h4>
-                    <p>skill-barter platform using the MERN stack and TypeScript, enabling users to offer and
-                      request skills with secure JWT-based authentication and protected routes.
-                      Real-time one-to-one messaging using Socket.io</p>
-                    <a href="https://skill-swap-orpin-chi.vercel.app/" target="_blank" rel="noopener norefferer">View Project →</a>
-                    <a href="https://github.com/Rajat-0707/skillSwap" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
-                  </div>
-
-                </div>
+                
               </div>
             </div>
           </div>
