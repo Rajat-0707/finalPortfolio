@@ -169,10 +169,22 @@ function App() {
                 <div className="project-item">
                   <div className="project-card">
                     <h4>Digital Foorprint Time Capsule </h4>
-                    <p> A full stack website made using mern stack and typescript, where users can upload their messages and files to be unlocked after a certain time.</p>
+                    <p> A full stack website made using MERN stack and typescript, where users can upload their messages and files to be unlocked after a certain time.</p>
                     <a href="https://digital-footprint-time-capsule.vercel.app/" target="_blank" rel="noopener noreferrer">View Project →</a>
                     <a href="https://github.com/Rajat-0707/digitalFootprintTimeCapsule" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
                   </div>
+                </div>
+                <div className="project-item">
+                  <div className="project-card">
+                    <h4>Skill Swap</h4>
+                    <p>Built a full-stack skill-barter platform using the MERN stack and TypeScript, enabling users to offer and
+request skills with secure JWT-based authentication and protected routes.
+• Implemented real-time one-to-one messaging and conversation inbox using Socket.io, improving user
+engagement and enabling seamless peer-to-peer collaboration.</p>
+                    <a href="https://skill-swap-orpin-chi.vercel.app/" target="_blank" rel="noopener norefferer">View Project →</a>
+                    <a href="https://github.com/Rajat-0707/skillSwap" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+                  </div>
+                
                 </div>
               </div>
             </div>
