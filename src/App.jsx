@@ -30,7 +30,7 @@ function App() {
     <>
       <div className="all">
 
-      
+
         <Element name="home" >
           <Mainpage />
           <Hr />
@@ -40,78 +40,78 @@ function App() {
         <Hr />
         <Element name="skills" >
           <div className="skillset"> <h1 className='myski'>My Skill Set</h1></div>
-         
+
           <div className="skill">
             <div className="skill-category">
               <h3>Frontend Development</h3>
               <div className="skill-grid">
                 <div className="skill-track">
-                <Skills name="HTML" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-                <Skills name="CSS" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-                <Skills name="JavaScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <Skills name="React" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-                <Skills name="Tailwind CSS" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
-                <Skills name="typeScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-                <Skills name="Bootstrap" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-                 <Skills name="HTML" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-                <Skills name="CSS" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-                <Skills name="JavaScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <Skills name="React" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-                <Skills name="Tailwind CSS" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
-                <Skills name="typeScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-                <Skills name="Bootstrap" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-              </div></div>
+                  <Skills name="HTML" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                  <Skills name="CSS" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                  <Skills name="JavaScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                  <Skills name="React" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                  <Skills name="Tailwind CSS" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
+                  <Skills name="typeScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+                  <Skills name="Bootstrap" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+                  <Skills name="HTML" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                  <Skills name="CSS" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                  <Skills name="JavaScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                  <Skills name="React" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                  <Skills name="Tailwind CSS" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
+                  <Skills name="typeScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+                  <Skills name="Bootstrap" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+                </div></div>
             </div>
 
             <div className="skill-category">
               <h3>Backend Development</h3>
               <div className="skill-grid">
                 <div className="skill-track">
-                <Skills name="Node.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-                <Skills name="Express.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
-                <Skills name="MongoDB" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
-                <Skills name="MySQL" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
-                <Skills name="PHP" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
-                <Skills name="Node.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-                <Skills name="Express.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
-                <Skills name="MongoDB" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
-                <Skills name="MySQL" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
-                <Skills name="PHP" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
-              </div></div>
+                  <Skills name="Node.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                  <Skills name="Express.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+                  <Skills name="MongoDB" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+                  <Skills name="MySQL" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+                  <Skills name="PHP" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+                  <Skills name="Node.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                  <Skills name="Express.js" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+                  <Skills name="MongoDB" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+                  <Skills name="MySQL" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+                  <Skills name="PHP" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+                </div></div>
             </div>
 
             <div className="skill-category">
               <h3>Programming Languages</h3>
               <div className="skill-grid">
                 <div className="skill-track">
-                <Skills name="C" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <Skills name="C++" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <Skills name="Python" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <Skills name="Java" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <Skills name="javaScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <Skills name="C" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <Skills name="C++" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <Skills name="Python" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <Skills name="Java" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <Skills name="javaScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-              </div></div>
+                  <Skills name="C" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+                  <Skills name="C++" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                  <Skills name="Python" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                  <Skills name="Java" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                  <Skills name="javaScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                  <Skills name="C" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+                  <Skills name="C++" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                  <Skills name="Python" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                  <Skills name="Java" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                  <Skills name="javaScript" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                </div></div>
             </div>
 
             <div className="skill-category">
               <h3>Tools & Technologies</h3>
               <div className="skill-grid">
                 <div className="skill-track">
-                <Skills name="Git" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-                <Skills name="GitHub" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                <Skills name="VS Code" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
-                <Skills name="Postman" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" />
-                <Skills name="Rest API" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/restapi/restapi-original.svg" />
-                <Skills name="Git" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-                <Skills name="GitHub" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                <Skills name="VS Code" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
-                <Skills name="Postman" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" />
-                <Skills name="Rest API" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/restapi/restapi-original.svg" />
-              </div></div>
+                  <Skills name="Git" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                  <Skills name="GitHub" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                  <Skills name="VS Code" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+                  <Skills name="Postman" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" />
+                  <Skills name="Rest API" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/restapi/restapi-original.svg" />
+                  <Skills name="Git" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                  <Skills name="GitHub" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                  <Skills name="VS Code" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+                  <Skills name="Postman" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" />
+                  <Skills name="Rest API" image="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/restapi/restapi-original.svg" />
+                </div></div>
             </div>
           </div>
         </Element>
@@ -178,13 +178,12 @@ function App() {
                   <div className="project-card">
                     <h4>Skill Swap</h4>
                     <p>Built a full-stack skill-barter platform using the MERN stack and TypeScript, enabling users to offer and
-request skills with secure JWT-based authentication and protected routes.
-• Implemented real-time one-to-one messaging and conversation inbox using Socket.io, improving user
-engagement and enabling seamless peer-to-peer collaboration.</p>
+                      request skills with secure JWT-based authentication and protected routes.
+                      Implemented real-time one-to-one messaging and conversation inbox using Socket.io</p>
                     <a href="https://skill-swap-orpin-chi.vercel.app/" target="_blank" rel="noopener norefferer">View Project →</a>
                     <a href="https://github.com/Rajat-0707/skillSwap" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
                   </div>
-                
+
                 </div>
               </div>
             </div>
