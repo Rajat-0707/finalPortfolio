@@ -177,9 +177,9 @@ function App() {
                 <div className="project-item">
                   <div className="project-card">
                     <h4>Skill Swap</h4>
-                    <p>Built a full-stack skill-barter platform using the MERN stack and TypeScript, enabling users to offer and
+                    <p>skill-barter platform using the MERN stack and TypeScript, enabling users to offer and
                       request skills with secure JWT-based authentication and protected routes.
-                      Implemented real-time one-to-one messaging and conversation inbox using Socket.io</p>
+                      Real-time one-to-one messaging using Socket.io</p>
                     <a href="https://skill-swap-orpin-chi.vercel.app/" target="_blank" rel="noopener norefferer">View Project →</a>
                     <a href="https://github.com/Rajat-0707/skillSwap" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
                   </div>
