@@ -1,9 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  background: var(--dark-gradient);
-  min-height: 100vh;
   animation: fadeInBody 1.2s ease;
-  color: var(--text-primary);
 }
 
 @keyframes fadeInBody {
@@ -20,11 +16,12 @@ body {
   width: 100%;
   padding: 3rem 2rem;
   gap: 3rem;
-  box-shadow: var(--shadow);
-  /* border-radius: 15px; */
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  background: rgba(16, 24, 39, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .head {

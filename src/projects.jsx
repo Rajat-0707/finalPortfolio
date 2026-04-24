@@ -1,18 +1,14 @@
 import React from 'react'
 import './css/projects.css'
 
-const Projects = (props) => {
+const Projects = ({ title, description, liveUrl, githubUrl }) => {
   return (
-    <div className="p-cards">
-      <div className="image-project">
-        <img className='project-image' src={props.image} alt="Project" />
-      </div>
-      <div className="detail">
-        <h3 className='project-title'>{props.title}</h3>
-        <p className='project-description'>{props.description}</p>
-        <a className='project-link' href={props.link} target='_blank' rel="noopener noreferrer">
-          View Project →
-        </a>
+    <div className="project-item">
+      <div className="project-card">
+        <h4>{title}</h4>
+        <p>{description}</p>
+        <a href={liveUrl} target="_blank" rel="noopener noreferrer">View Project →</a>
+        <a href={githubUrl} target="_blank" rel="noopener noreferrer">GitHub Repository</a>
       </div>
     </div>
   )

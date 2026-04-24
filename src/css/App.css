@@ -7,11 +7,56 @@
 .skill {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
-  padding: 4rem 2rem 6rem;
+  gap: 2rem;
+  padding: 2rem 2rem 3rem;
   background: transparent;
   max-width: 1400px;
   margin: 0 auto;
+  position: relative;
+}
+
+.skill::before, .skill::after {
+  content: '';
+  position: absolute;
+  width: 250px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(100, 255, 218, 1));
+  border-radius: 50%;
+  filter: drop-shadow(0 0 10px rgba(100, 255, 218, 1));
+  animation: shootingStarBackground 4s linear infinite;
+  z-index: -199;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.skill::before {
+  top: 15%;
+  left: 0%;
+  animation-delay: 0.5s;
+}
+
+.skill::after {
+  top: 60%;
+  left: 30%;
+  animation-delay: 2.5s;
+  animation-duration: 5s;
+}
+
+@keyframes shootingStarBackground {
+  0% {
+    transform: rotate(35deg) translateX(-300px);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(35deg) translateX(1500px);
+    opacity: 0;
+  }
 }
 
 .box1 {
@@ -50,9 +95,9 @@
 .myski {
   color: var(--text-accent);
   font-size: clamp(2rem, 4vw, 3rem);
-  /* text-align: center; */
-  margin-left: 5rem;
-  margin-top: 5rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   font-weight: bold;
   text-shadow: 0 2px 10px rgba(100, 255, 218, 0.3);
   animation: glow 2s ease-in-out infinite alternate;
